@@ -1,0 +1,25 @@
+{
+    "name": "@nintex/form-plugin-localdev",
+    "version": "1.0.6",
+    "description": "A local development server for hosting nintex form plugins .",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node ./index.js"
+    },
+    "license": "Apache-2.0",
+    "author": "John Pouliezos",
+    "dependencies": {
+        "commander": "^10.0.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "open": "^8.4.2",
+        "serve-index": "^1.9.1"
+    },
+    "bin": {
+        "ntx-localdev": "./index.js"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}
