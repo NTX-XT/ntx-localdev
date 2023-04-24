@@ -12,12 +12,12 @@ The server takes two parameters:
 - `-folder (or -f)`: Specifies the path of the files files to be servers. This parameter is required.
 - `-port (or -p)`: Specify the port. If not specified, the port 8888 will be used by default.
 
-When globally installed, the server can be run using `ntx-localserve`. For local installs, run `npx ntx-localserve`
+When globally installed, the server can be run using `ntx-localdev`. For local installs, run `npx ntx-localdev`
 
 # Examples
 
-- Serve the files under the project's dist folder on the default port: `ntx-localserve -f ./dist`
-- Serve the files under the project's dist folder on port 8880: `ntx-localserve -f ./dist -p 8880`
+- Serve the files under the project's dist folder on the default port: `ntx-localdev -f ./dist`
+- Serve the files under the project's dist folder on port 8880: `ntx-localdev -f ./dist -p 8880`
 
 The server is used by the Ninhtex Form Plugin Starter Kit, both the typescript and the javascript flavours. Please refer to those repos for more working scenarios.
 
