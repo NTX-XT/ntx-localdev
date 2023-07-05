@@ -1,5 +1,5 @@
 {
-    "name": "@nintex/form-plugin-localdev",
+    "name": "@ntx/ntx-localdev",
     "version": "1.0.6",
     "description": "A local development server for hosting nintex form plugins .",
     "main": "index.js",
